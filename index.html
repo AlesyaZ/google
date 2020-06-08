@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css" rel="stylesheet" />
+  <link rel="shortcut icon" type="image/ico" href="./assets/image/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <main>
+            <div class="controller_mail">
+                <div class="controller_mail-gmail">
+                    <a href="https://mail.google.com/mail/u/0/">Gmail</a>
+                </div>
+                <div class="controller_mail-images">
+                    <a href="https://www.google.by/imghp">Images</a>
+                </div>
+                <div class="controller"></div>  
+                <button class="mail-sign-in">
+                    <a href="https://accounts.google.com/">Sign in</a>
+                </button>
+            </div>
+
+            <div class="wrapper">
+                <div class="google-icon">
+                    <img src="assets/image/googlelogo.png"/>
+                </div>
+            <div class ="controller_search">
+                <div class="google-search_wrapper">
+                    <div class="google-search_container">
+                            <span class="icon_search">
+                                <img src="assets/image/search.svg">
+                            </span>
+                        <form class="search-form" id="Search" action="https://www.google.com/search">
+                            <div class=input-container>
+                            <input class="search-input" id="mySearch" type="search" autofocus autocomplete="on" autocorrect="off" placeholder="" title="Search" name="q">
+                            </div>
+                        </form>
+                        <span class="icon_voice">
+                            <a href="https://www.google.com/?pli=1">
+                                <img class="icon_microphone" id="microphone" src="assets/image/voice.svg" title="Search by voice" title="Clear"/>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="google-search_submit">
+                    <button class="search-button" type="submit" form="Search">Google Search</button>
+                    <button class="search-button" type="submit">
+                        <a href="https://www.google.com/doodles/?hl=en">I'm Feeling Lucky</a>
+                </button>
+                </div>
+                <div class="google-offered">
+                    Google offered in:
+                    <a href="https://www.google.ru/">русский</a> 
+                    <a href="https://www.google.be/">Беларуская</a>
+                </div>
+            </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-country">
+                <span>Belarus</span>
+            </div>
+
+            <div class="footer-container">
+                <span class="footer_google-about">
+                    <a href="https://ads.google.com/intl/en_by/home/">Advertising</a>
+                    <a href="https://www.google.com/services/">Business</a>
+                    <a href="https://about.google/">About</a>
+                    <a href="https://www.google.com/search/howsearchworks/">How Search works</a>
+                </span>
+                <span class="footer_google-settings">
+                    <a href="https://policies.google.com/privacy">Privacy</a>
+                    <a href="https://policies.google.com/terms">Terms</a>
+                    <span class="google-settings">
+                        <a>Settings</a>
+                        <span class="menu-settings">
+                            <a href="https://www.google.com/preferences">Search settings</a>
+                            <a href="https://www.google.com/advanced_search">Advanced search</a>
+                            <a href="https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu">Your data in Search</a>
+                            <a href="https://www.google.com/history/optout">History</a>
+                            <a href="https://support.google.com/websearch/">Search help</a>
+                            <a href="">Send feedback</a>
+                        </span>
+                    </span>
+                </span>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
